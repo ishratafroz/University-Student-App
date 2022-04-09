@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.result.ResultFragment">
+    <EditText
+        android:id="@+id/resultct1"
+        android:layout_width="match_parent"
+        android:ems="10"
+        android:layout_height="wrap_content"
+        android:inputType="numberSigned"
+        android:textAlignment="center"
+        android:hint="Class text mark"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:padding="10dp" />
+    <Button
+        android:id="@+id/resultbutton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/resultct1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/custombutton"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Class text mark"
+        android:inputType="numberSigned"
+        android:padding="10dp"
+        android:text="INSERT"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        app:backgroundTint="#E21EE9" />
+    <com.jjoe64.graphview.GraphView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_below="@id/resultbutton1"
+        android:id="@+id/graphresult1"/>
+
+
+</RelativeLayout>

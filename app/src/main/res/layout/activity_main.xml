@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="220dp"
+        android:layout_height="600dp"
+        android:background="@drawable/shape_right_panel"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.244" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="40dp"
+        android:layout_height="350dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:background="@drawable/shape_login_panel"
+        app:layout_constraintHorizontal_bias="0.078"
+        app:layout_constraintStart_toStartOf="parent"
+        android:paddingTop="20dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="30dp"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.242">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Already have an Account?"
+            android:textAppearance="@style/Base.CardView"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#2333C5"
+            android:textSize="25sp"/>
+        <EditText
+            android:id="@+id/signinedit1"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:textSize="20sp"
+            android:inputType="textEmailAddress"
+            android:hint="  Enter your email address"
+            android:drawableLeft="@drawable/email"
+            android:textColor="@color/black"
+            android:textStyle="italic"
+            android:textAppearance="@style/Base.CardView"
+            android:textCursorDrawable="@null"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:inputType="textPassword"
+            android:hint="  Enter Your Roll Number"
+            android:textColor="@color/black"
+            android:id="@+id/signinedit2"
+            android:drawableLeft="@drawable/user"
+            android:textStyle="italic"
+            android:textCursorDrawable="@null"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:inputType="textPassword"
+            android:hint="  Enter Password"
+            android:textColor="@color/black"
+            android:id="@+id/signinedit3"
+            android:drawableLeft="@drawable/padlock"
+            android:textStyle="italic"
+            android:textCursorDrawable="@null"
+            android:layout_marginBottom="10sp"/>
+        <Button
+            android:id="@+id/signinbutton1"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:textSize="18sp"
+            android:layout_gravity="right"
+            android:paddingTop="10dp"
+            android:text="LOG IN"
+            app:backgroundTint="#F82D72"
+            android:background="@drawable/custombutton2"
+            android:textColor="@color/white"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Are you not registered? Sign up"
+            android:paddingTop="10sp"
+            android:textAppearance="@style/Base.CardView"
+            android:gravity="center"
+            android:id="@+id/signintextid1"
+            android:textColor="#2E2F7E"
+            android:textSize="18sp"/>
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/progressbarid"
+            android:layout_gravity="center_horizontal"
+            android:visibility="gone"/>
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

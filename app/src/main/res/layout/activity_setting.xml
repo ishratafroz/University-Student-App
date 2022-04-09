@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:layout_gravity="center_vertical"
+    tools:context=".Setting">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image6"
+        android:layout_width="@dimen/_60sdp"
+        android:layout_height="@dimen/_60sdp"
+        android:src="@drawable/profile"
+        android:layout_margin="@dimen/_10sdp"
+        app:civ_border_color="#FF000000"
+        app:civ_border_width="2dp"
+        />
+    <EditText
+        android:id="@+id/settingeditname"
+        android:textStyle="bold"
+        android:background="@null"
+        android:paddingLeft="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textSize="20.00dp"
+        />
+    <EditText
+        android:id="@+id/settingeditroll"
+        android:textStyle="normal"
+        android:background="@null"
+        android:paddingLeft="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Roll"
+        android:textSize="20.00dp"
+        />
+    <Button
+        android:id="@+id/settingeditbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="update"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/custombutton"
+        app:backgroundTint="@color/teal_200"/>
+    <EditText
+        android:id="@+id/settingedittext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:textStyle="italic"
+        android:hint="Enter your group link" />
+    <Button
+        android:id="@+id/settingeditbutton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custombutton"
+        app:backgroundTint="#49C6BA"
+        android:text="Refresh link"
+        android:textStyle="italic"/>
+    <ImageButton
+        android:id="@+id/settingeditbutton3"
+        android:layout_width="49dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/classroutine"
+        android:textStyle="italic"
+        app:backgroundTint="#49C6BA" />
+</LinearLayout>

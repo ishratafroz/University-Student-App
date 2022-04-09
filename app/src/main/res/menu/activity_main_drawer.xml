@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_library"
+            android:icon="@drawable/library"
+            android:title="Library"/>
+        <item
+            android:id="@+id/nav_courses"
+            android:icon="@drawable/course"
+            android:title="Courses" />
+        <item
+            android:id="@+id/nav_event"
+            android:icon="@drawable/event"
+            android:title="Event_Details" />
+        <item
+            android:id="@+id/nav_exam"
+            android:icon="@drawable/exam"
+            android:title="Examination" />
+        <item
+            android:id="@+id/nav_selflearn"
+            android:icon="@drawable/selflearn"
+            android:title="Self Learning Materials" />
+        <item
+            android:id="@+id/nav_classlink"
+            android:icon="@drawable/class_link"
+            android:title="Class link" />
+        <item
+            android:id="@+id/nav_performance"
+            android:icon="@drawable/performance"
+            android:title="Performance Result" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/profile"
+            android:title="About Developer" />
+    </group>
+    <item android:title="About Us">
+      <menu>
+    <item
+           android:id="@+id/nav_aboutkuet"
+           android:icon="@drawable/kuet1"
+           android:title="About Kuet" />
+        <item
+            android:id="@+id/nav_vcmessage"
+        android:icon="@drawable/message"
+        android:title="Vice Chancellor Message" />
+    </menu>
+    </item>
+</menu>

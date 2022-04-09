@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.selflearn.SelfLearnFragment">
+    <RelativeLayout
+        android:layout_width="220dp"
+        android:layout_height="600dp"
+        android:background="@drawable/shape_left_panel"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.242"/>
+    <LinearLayout
+        android:layout_width="371dp"
+        android:layout_height="330dp"
+        android:layout_marginTop="140dp"
+        android:background="@drawable/shape_login_panel"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingTop="20dp"
+        android:paddingRight="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.078"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.242">
+        <TextView
+            android:id="@+id/openactivity2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Share your notes by clicking here"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:paddingLeft="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.339" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/openactivity"
+                android:layout_width="130dp"
+                android:layout_height="60dp"
+                android:backgroundTint="#E91E63"
+                android:src="@drawable/custombutton"
+                android:text="create note"
+                android:textStyle="italic"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="40dp" />
+            <Button
+                android:id="@+id/openactivity3"
+                android:layout_width="130dp"
+                android:layout_height="60dp"
+                android:backgroundTint="#17B892"
+                android:src="@drawable/custombutton"
+                android:text="Retrieve notes"
+                android:textStyle="italic"
+                android:layout_marginTop="40dp" />
+        </LinearLayout>
+            <EditText
+                android:id="@+id/openactivity4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"/>
+        <Button
+            android:id="@+id/openactivity5"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:text="Link to Drive"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:background="@drawable/round"
+            app:backgroundTint="@color/purple_500"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

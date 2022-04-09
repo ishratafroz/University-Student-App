@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.library.LibraryFragment">
+ <ProgressBar
+     android:layout_width="match_parent"
+     android:layout_height="8dp"
+     android:id="@+id/libp1"
+     style="?android:attr/progressBarStyleHorizontal"
+     android:layout_marginTop="-3dp"
+     android:visibility="gone"
+     android:progress="20"
+     />
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:id="@+id/webview2"/>
+
+    <RelativeLayout
+        android:id="@+id/relativelayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="240dp"
+            android:layout_height="240dp"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/libraryimage1"
+            android:src="@drawable/ic_launcher_foreground"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="No Internet Connection"
+            android:layout_below="@+id/libraryimage1"
+            android:textAlignment="center"
+            android:textSize="26sp"
+            android:id="@+id/nointernet"
+            android:gravity="center_horizontal" />
+        <Button
+            android:id="@+id/butoninternet"
+            android:layout_width="140dp"
+            android:layout_height="55dp"
+            android:layout_below="@id/libraryimage1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="60dp"
+            android:text="Retry"
+            android:textColor="@color/white"
+            app:backgroundTint="#F16235" />
+    </RelativeLayout>
+</LinearLayout>

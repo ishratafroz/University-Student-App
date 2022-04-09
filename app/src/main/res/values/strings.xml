@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">My appforuniversity</string>
+    <string name="title_activity_main2">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="nav_open">open navigation toolbar</string>
+    <string name="event_action1">    Enter event details:"</string>
+    <string name="nav_close">close navigation toolbar</string>
+    <string name="vcmessage">I am very much delighted to introduce Khulna University of Engineering and Technology (KUET), which is one of the leading Higher Education Institutes (HEIs) of Bangladesh, established in 1967 as Khulna Engineering College in a greenery landscape of 101 acres land situated about 12km North from the city Centre. It’s long cherished academic journey started on 3 June, 1974 upon the special direction of Father of the Nation Bangabandhu Sheikh Mujibur Rahman with the provision of 120 students as yearly intake in the bachelor degree course in 3 Engineering Departments. Later the college was converted to an autonomous HEI called Bangladesh Institute of Technology (BIT), Khulna in July 1986 to enhance teaching and learning. Finally, the institute was upgraded and renamed as Khulna University of Engineering and Technology (KUET) in September 2003. Presently, it comprises 18 departments including major branches of engineering and sciences offering both the under-graduate (UG) and post-graduate (PG) degrees with yearly intake of 1005 students in UG program from 2016-2017 session and about 200 students in PG program. Institute of Information and Communication Technology (IICT), Institute of Disaster Management (IDM) and Institute of Environment and Power Technology (IEPT) have been started since 2010, 2013 and 2016, respectively. Moreover, ‘The IIC – Innovation and Innovator Cell’ was established in 2016, which will be developed under Public Private Partnership (PPP) concept and the construction of ‘IT Incubation and Training Centre’ will be completed in 2019. It has the plan to increase the area by 16.30 acres land and to procure modern scientific equipment
+and to construct modern civil infrastructures. Four more academic departments will be opened within the next 4 years.
+\n \n
+The university is aimed to take the leadership in promoting technological development and management of the nation by strengthening engineering, science and technological education and research. For decades, KUET has been at the forefront of education, research and nation-building, producing the best graduates in the country. Research and academic activities have also been extended for meaningful collaboration with various Higher Education and Research Institutes from the Asian, European, American and Australian countries. As the Vice-Chancellor of KUET, I am honoured to be at the helm of what is considered as one of the foremost universities in Bangladesh, and I hope to lead through an outstanding period of progress and growth in quality education, research and overall teaching and learning environment of the campus.
+\n
+I do look forward to welcoming you at KUET to experience the unique learning and sociable environment.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="firstlist">
+        <item>CSE 1100</item>
+        <item>CSE 1107</item>
+        <item>EEE 1107</item>
+        <item>EEE 1108</item>
+        <item>HUM 1107</item>
+        <item>HUM 1108</item>
+        <item>MATH 1107</item>
+        <item>PHY 1107</item>
+        <item>PHY 1108</item>
+    </string-array>
+</resources>

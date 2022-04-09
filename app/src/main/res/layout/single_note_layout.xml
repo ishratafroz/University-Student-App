@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:minWidth="156dp"
+    android:background="@color/purple_200"
+    android:orientation="horizontal">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="128dp"
+        android:layout_margin="5dp"
+        app:contentPadding="5dp"
+        android:minHeight="128dp"
+        app:cardMaxElevation="128dp">
+    <LinearLayout
+        android:layout_width="156dp"
+        android:layout_height="match_parent"
+        android:minWidth="156dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/layoutnotetitle"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="2dp"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="Note Title"
+            android:textColor="@color/black" />
+        <TextView
+            android:id="@+id/layoutnotecontent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Note content"
+            android:ellipsize="end"
+            android:maxLines="5"
+            android:layout_marginTop="2dp"
+            android:textColor="@color/black"
+            android:textStyle="italic"
+            android:layout_weight="1"
+            android:layout_marginBottom="10dp"
+            />
+    <TextView
+        android:id="@+id/layoutnotetime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:textColor="@color/black"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:text="Updated Time" />
+    </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

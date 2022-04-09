@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.myappforuniversity.ui.home.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/nav_library"
+        android:name="com.example.myappforuniversity.ui.library.LibraryFragment"
+        android:label="Library"
+        tools:layout="@layout/library_fragment" />
+
+    <fragment
+        android:id="@+id/nav_courses"
+        android:name="com.example.myappforuniversity.ui.courses.CoursesFragment"
+        android:label="Courses"
+        tools:layout="@layout/courses_fragment" />
+
+    <fragment
+        android:id="@+id/nav_event"
+        android:name="com.example.myappforuniversity.ui.event.EventFragment"
+        android:label="Event_Details"
+        tools:layout="@layout/event_fragment" />
+    <fragment
+    android:id="@+id/nav_exam"
+    android:name="com.example.myappforuniversity.ui.exam.ExamFragment"
+    android:label="Examination"
+    tools:layout="@layout/exam_fragment" />
+    <fragment
+        android:id="@+id/nav_selflearn"
+        android:name="com.example.myappforuniversity.ui.selflearn.SelfLearnFragment"
+        android:label="Self Learning Materials"
+        tools:layout="@layout/self_learn_fragment" />
+    <fragment
+        android:id="@+id/nav_classlink"
+        android:name="com.example.myappforuniversity.ui.classlink.ClassLinkFragment"
+        android:label="Class link"
+        tools:layout="@layout/class_link_fragment" />
+    <fragment
+        android:id="@+id/nav_performance"
+        android:name="com.example.myappforuniversity.ui.result.ResultFragment"
+        android:label="Performance Result"
+        tools:layout="@layout/result_fragment" />
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.example.myappforuniversity.ui.profile.ProfileFragment"
+        android:label="About developer"
+        tools:layout="@layout/profile_fragment" />
+    <fragment
+        android:id="@+id/nav_aboutkuet"
+        android:name="com.example.myappforuniversity.ui.about.AboutFragment"
+        android:label="About Kuet"
+        tools:layout="@layout/about_fragment" />
+    <fragment
+        android:id="@+id/nav_vcmessage"
+        android:name="com.example.myappforuniversity.ui.message.MessageFragment"
+        android:label="Vice Chancellor Message"
+        tools:layout="@layout/message_fragment" />
+    <fragment
+        android:id="@+id/itemFragment"
+        android:name="com.example.myappforuniversity.ItemFragment"
+        android:label="fragment_item_list"
+        tools:layout="@layout/fragment_item_list" />
+    <fragment
+        android:id="@+id/itemFragment2"
+        android:name="com.example.myappforuniversity.ItemFragment2"
+        android:label="fragment_item_list2"
+        tools:layout="@layout/fragment_item_list2" />
+    <fragment
+        android:id="@+id/itemFragment3"
+        android:name="com.example.myappforuniversity.ItemFragment3"
+        android:label="fragment_item_list3"
+        tools:layout="@layout/fragment_item_list3" />
+    <fragment
+        android:id="@+id/itemFragment4"
+        android:name="com.example.myappforuniversity.ItemFragment4"
+        android:label="fragment_item_list4"
+        tools:layout="@layout/fragment_item_list4" />
+    <fragment
+        android:id="@+id/itemFragment5"
+        android:name="com.example.myappforuniversity.ItemFragment5"
+        android:label="fragment_item_list5"
+        tools:layout="@layout/fragment_item_list5" />
+    <fragment
+        android:id="@+id/itemFragment6"
+        android:name="com.example.myappforuniversity.ItemFragment6"
+        android:label="fragment_item_list6"
+        tools:layout="@layout/fragment_item_list6" />
+    <fragment
+        android:id="@+id/itemFragment7"
+        android:name="com.example.myappforuniversity.ItemFragment7"
+        android:label="fragment_item_list7"
+        tools:layout="@layout/fragment_item_list7" />
+    <fragment
+        android:id="@+id/itemFragment8"
+        android:name="com.example.myappforuniversity.ItemFragment8"
+        android:label="fragment_item_list8"
+        tools:layout="@layout/fragment_item_list8" />
+</navigation>

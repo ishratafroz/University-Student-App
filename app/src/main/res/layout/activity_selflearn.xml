@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/presentationexam"
+    android:layout_height="match_parent"
+    tools:context=".selflearn">
+    <LinearLayout
+        android:id="@+id/linearLayoutself"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:theme="@style/Theme.MyAppforuniversity.AppBarOverlay">
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar2"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="#E4BAEC"
+                app:popupTheme="@style/Theme.MyAppforuniversity.PopupOverlay" />
+
+        </com.google.android.material.appbar.AppBarLayout>
+        <EditText
+            android:id="@+id/editself1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/fui_transparent"
+            android:hint="Enter your title here..."
+            android:padding="10dp" />
+
+        <EditText
+            android:id="@+id/editself2"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@color/fui_transparent"
+            android:gravity="start|top"
+            android:hint="Type your description here...."
+            android:padding="10dp" />
+
+        <Button
+            android:id="@+id/editself3"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="@drawable/custombutton2"
+            android:text="Create note"
+            android:textColor="@color/white" />
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

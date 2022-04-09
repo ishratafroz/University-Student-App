@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.classlink.ClassLinkFragment">
+    <LinearLayout
+        android:id="@+id/linearLayoutclasslink"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/editsubjlink"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/fui_transparent"
+            android:hint="Enter subject and subject_code..."
+            android:padding="10dp" />
+        <EditText
+            android:id="@+id/editsubjlink2"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:background="@color/fui_transparent"
+            android:gravity="start|top"
+            android:hint="Enter link...."
+            android:padding="10dp" />
+        <Button
+            android:id="@+id/editsubjlink3"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="@drawable/custombutton2"
+            android:paddingLeft="10dp"
+            android:layout_marginBottom="2dp"
+            android:text="Click here"
+            android:textColor="@color/white"
+            android:enabled="false"
+            app:backgroundTint="#00BCD4" />
+        <Button
+            android:id="@+id/editsubjlink4"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="@drawable/custombutton"
+            android:paddingLeft="10dp"
+            android:text="SHOW"
+            android:textColor="@color/white"
+            app:backgroundTint="#0098D4" />
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

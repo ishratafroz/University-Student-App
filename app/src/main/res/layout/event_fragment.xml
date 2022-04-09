@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:orientation="vertical"
+    android:background="#40D2F4FD"
+    tools:context=".ui.event.EventFragment">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:inputType="textCapSentences"
+        android:hint="@string/event_action1"
+        android:textStyle="italic"
+        android:id="@+id/editevent1"
+        android:layout_marginTop="15dp">
+    </EditText>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save data"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/teal_200"
+        android:id="@+id/savebuttonid"
+        android:enabled="false"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Load data"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/teal_200"
+        android:layout_gravity="center"
+        android:id="@+id/savebutton2id"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Mobile Number"
+        android:inputType="numberDecimal"
+        android:id="@+id/editevent2"
+        android:paddingTop="20dp">
+    </EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Text "
+        android:inputType="textCapSentences"
+        android:id="@+id/editevent3"
+        android:paddingTop="20dp">
+    </EditText>
+    <Button
+        android:id="@+id/savebutton3id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#0ABFB0"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:text="Send message to whatsapp" />
+
+</LinearLayout>
